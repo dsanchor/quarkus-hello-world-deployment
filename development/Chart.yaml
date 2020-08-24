@@ -1,3 +1,6 @@
+apiVersion: v2
+type: application
+version: 1.0.0
 dependencies:
 - name: quarkus-hello-world
   repository: http://sonatype-nexus-service.cicd.svc:8081/repository/helm-charts
