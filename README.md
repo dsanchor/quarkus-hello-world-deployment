@@ -1,1 +1,1 @@
-# quarkus-hello-world-config
+# quarkus-hello-world-deployment
