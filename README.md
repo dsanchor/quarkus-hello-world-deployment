@@ -1,0 +1,1 @@
+# quarkus-hello-world-config
