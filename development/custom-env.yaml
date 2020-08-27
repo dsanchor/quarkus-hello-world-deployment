@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quarkus-hello-world
+spec:
+  template:
+    spec:
+      containers:
+      - name: quarkus-generic
+        env:
+        - name: ENVIRONMENT
+          value: dev

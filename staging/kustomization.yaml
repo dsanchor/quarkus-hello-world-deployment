@@ -1,0 +1,9 @@
+resources:
+- ../base
+
+images:
+- name: quarkus-hello-world
+  newTag: 049b185b9c698d0e2e7f29b5e6bce852558ef053
+
+patchesStrategicMerge:
+- custom-env.yaml
