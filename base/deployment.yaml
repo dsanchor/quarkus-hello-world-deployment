@@ -23,7 +23,7 @@ spec:
       - env:
         - name: ENVIRONMENT
           value: none
-        image: quarkus-hello-world
+        image: image-registry.openshift-image-registry.svc.cluster.local:5000/team-a-tooling/quarkus-hello-world:latest
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 3
