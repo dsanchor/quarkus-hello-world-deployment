@@ -6,4 +6,11 @@ quarkus-hello-world:
    quarkus-generic:
       env: 
          - name: ENVIRONMENT
-           value: dev
+           value: staging
+      resources: 
+         limits:
+            cpu: 200m
+            memory: 256Mi
+         requests:
+            cpu: 200m
+            memory: 256Mi
