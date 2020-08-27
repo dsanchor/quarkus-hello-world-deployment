@@ -1,9 +1,0 @@
-apiVersion: v2
-type: application
-# this version field is irrelevant and will not be used, but is must exists 
-version: 1.0.0
-dependencies:
-- name: quarkus-hello-world
-  repository: http://sonatype-nexus-service:8081/repository/helm-charts
-  version: 1.0.0
-name: quarkus-hello-world
