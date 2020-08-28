@@ -3,7 +3,7 @@ resources:
 
 images:
 - name: image-registry.openshift-image-registry.svc.cluster.local:5000/team-a-tooling/quarkus-hello-world
-  newTag: 950216875b4d551d3279869d733fa89af00f3ef4
+  newTag: 1360b60cb485deb456ac06f1abeee2aea0337c71
 
 patchesStrategicMerge:
 - custom-env.yaml
