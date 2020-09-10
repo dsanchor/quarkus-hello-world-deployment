@@ -5,7 +5,8 @@ metadata:
 spec:
   template:
     metadata:
-    spec:
+      annotations:
+        autoscaling.knative.dev/minScale: "3"    spec:
       containers:
         - livenessProbe:
             httpGet:
