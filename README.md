@@ -1,5 +1,9 @@
 # quarkus-hello-world-deployment
 
+## Master branch
+
+Used by the knative-pipeline example demonstrated in Red Hat developers blog post.
+
 ## Branches: helm  
 
 Each of the following branches contained the source of truth of what is must be deployed in the platform for the following kind of environment:
