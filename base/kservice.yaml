@@ -4,9 +4,7 @@ metadata:
   name: quarkus-hello-world
 spec:
   template:
-    metadata:
-      annotations:
-        autoscaling.knative.dev/minScale: "1"    
+    metadata: 
     spec:
       containers:
         - livenessProbe:
