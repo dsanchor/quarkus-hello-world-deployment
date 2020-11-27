@@ -3,3 +3,5 @@
   value:
     - revisionName: quarkus-hello-world-r9ce9024
       percent: 100
+    - revisionName: quarkus-hello-world-r35fd24b
+      percent: 20
