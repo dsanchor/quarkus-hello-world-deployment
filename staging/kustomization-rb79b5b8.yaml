@@ -1,0 +1,15 @@
+resources:
+- ../base
+- env-ops-configmap.yaml
+- rb79b5b8/configmap.yaml
+
+patches:
+- path: traffic-routing.yaml
+  target:
+    kind: Service
+- path: rb79b5b8/revision-patch.yaml
+  target:
+    kind: Service
+- path: rb79b5b8/routing-patch.yaml
+  target:
+    kind: Service
