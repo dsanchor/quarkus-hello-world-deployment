@@ -1,8 +1,0 @@
-- op: add
-  path: /spec/template/metadata
-  value:
-    name: quarkus-hello-world-r12d657e
-- op: add
-  path: /spec/template/spec/containers/0/image
-  value:
-    image-registry.openshift-image-registry.svc.cluster.local:5000/cicd/quarkus-hello-world:12d657e8982f8be91ebfc608268503d81608fc44
