@@ -1,0 +1,5 @@
+- op: add
+  path: /spec/traffic/-
+  value:
+    tag: rf1621d3
+    revisionName: quarkus-hello-world-rf1621d3

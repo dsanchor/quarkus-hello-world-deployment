@@ -1,0 +1,15 @@
+resources:
+- ../base
+- env-ops-configmap.yaml
+- rf1621d3/configmap.yaml
+
+patches:
+- path: traffic-routing.yaml
+  target:
+    kind: Service
+- path: rf1621d3/revision-patch.yaml
+  target:
+    kind: Service
+- path: rf1621d3/routing-patch.yaml
+  target:
+    kind: Service
