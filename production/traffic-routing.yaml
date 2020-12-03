@@ -2,4 +2,6 @@
   path: /spec/traffic
   value:
     - revisionName: quarkus-hello-world-rdc1c992
-      percent: 100
+      percent: 90
+    - revisionName: quarkus-hello-world-rf9da916
+      percent: 10
